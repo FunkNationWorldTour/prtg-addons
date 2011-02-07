@@ -1,0 +1,187 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TrayNotifier
+</name>
+</assembly>
+<members>
+<member name="T:Notifier.Alarms.xmlReceivedDelegate">
+	<summary>
+ Callback from a http request
+ </summary>
+	<param name="doc"></param>
+	<param name="errorMessage"></param>
+	<remarks></remarks>
+</member><member name="T:Notifier.Alarms.ShowAlarmsDelegate">
+	<summary>
+ Updates the grid with recent alarms
+ </summary>
+	<param name="Alarms"></param>
+	<remarks></remarks>
+</member><member name="M:Notifier.Alarms.SetRadioButtons">
+	<summary>
+ Sets the radiobuttons color and text
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Notifier.Alarms.SetFilterDelegate">
+	<summary>
+ Sets datagrid filter and colors according to the user selection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Notifier.Alarms.Open">
+	<summary>
+ Starts the default browser and opens the sensor page
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Notifier.Alarms.Pause">
+	<summary>
+ Pauses or resumes a sensor
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Notifier.Alarms.ScanNow">
+	<summary>
+ Performs a immediate scan on the sensor
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Notifier.Alarms.GetFormPosition">
+	<summary>
+ Gets the last saved formposition
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Notifier.Alarms.SaveFormPosition">
+	<summary>
+ Saves the current formposition
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Notifier.Alarms.Settings">
+	<summary>
+ Change the program settings
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Notifier.Alarms.Register">
+	<summary>
+ Show the registration form
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Notifier.AlarmsData.CurrentAlarmsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Notifier.AlarmsData.CurrentAlarmsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Notifier.AlarmsData.CurrentAlarmsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Notifier.AlarmsData">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Notifier.Mainform.xmlReceivedDelegate">
+	<summary>
+ Callback from a http request
+ </summary>
+	<param name="doc"></param>
+	<param name="errorMessage"></param>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.UpdateStatus(System.String)">
+	<summary>
+ Sets the text in the balloontip
+ </summary>
+	<param name="myText"></param>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.BlinkIcon(System.Boolean)">
+	<summary>
+ Starts or stops the icon blinking
+ </summary>
+	<param name="blink"></param>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.playsound(System.Boolean)">
+	<summary>
+ Play's a sound
+ </summary>
+	<param name="play"></param>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.ShowAlarms">
+	<summary>
+ Shows the alarms form
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.Settings">
+	<summary>
+ Shows the settings form
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.frmAlarmsClose(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+	<summary>
+ Alarms form closed, set all the alarms as acknowledged
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:Notifier.Mainform.StopRefreshAlarmsDelegate">
+	<summary>
+ Stop getting alarms from the server
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Notifier.Mainform.StartRefreshAlarmsDelegate">
+	<summary>
+ Start getting alarms from the server
+ </summary>
+	<param name="change"></param>
+	<param name="refreshTime"></param>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.ShowBalloonTip(System.Int32)">
+	<summary>
+ Show or hide the balloontip
+ </summary>
+	<param name="showSeconds"></param>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.AlarmCompare(Notifier.AlarmsData.CurrentAlarmsDataTable,Notifier.AlarmsData.CurrentAlarmsDataTable)">
+	<summary>
+ Compares two alarm datatables
+ </summary>
+	<param name="dt1"></param>
+	<param name="dt2"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.tmrRefreshStatus_Tick(System.Object,System.EventArgs)">
+	<summary>
+ Gets the current alarms from the server
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.tmrHideBalloon_Tick(System.Object,System.EventArgs)">
+	<summary>
+ Hides the balloontip
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Notifier.Mainform.tmrBlink_Tick(System.Object,System.EventArgs)">
+	<summary>
+ Blinks the tray icon
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:Notifier.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Notifier.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Notifier.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

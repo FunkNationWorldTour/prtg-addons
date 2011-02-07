@@ -1,0 +1,11 @@
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\bin\Release\NotifierCE.exe
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\bin\Release\NotifierCE.pdb
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\bin\Release\NotifierCE.xml
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\obj\Release\ResolveAssemblyReference.cache
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\obj\Release\NotifierCE.Sensors.resources
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\obj\Release\NotifierCE.Resources.resources
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\obj\Release\NotifierCE.vbproj.GenerateResource.Cache
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\obj\Release\NotifierCE.exe
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\obj\Release\NotifierCE.xml
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\obj\Release\NotifierCE.pdb
+c:\Visual Studio\PaesslerTrayNotifier\NotifierCE\obj\Release\NotifierCE.Settings.resources
