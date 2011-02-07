@@ -6,5 +6,5 @@ if i >= 30 Then
    WScript.Quit("0")
 else
    WScript.echo i & ":Value too low"
-   WScript.Quit("4")
+   WScript.Quit("1")
 end if
