@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/invoice.css" media="print,screen,projection" />
+	<title>PRTG Billing</title>
+</head>
+<body>
+	<div id="container">
+	
+		<div id="head_logo"><img src="<#headLogopath>" alt="Logo" /></div>
+	
+		<div id="head_client_address">
+			<p><#clientADdress></p>
+		</div>
+		<div id="head_client_optional_data">
+			<p><#clientinfo></p>		
+		</div>
+		
+		<div id="clear">&nbsp;</div>
+		
+		<div id="head_date"><p><#invoicedate></p></div>
+		<div id="invoice_heading">
+			<h1><#heading></h1>
+		</div>
+		
+		<div id="invoice_list">
+			<h2><#sensoRname> (<#startdate> - <#enddate>)</h2>
+			<table id="invoice_table">
+				<#itemtable>
+			</table>
+			<hr>
+		</div>
+		
+		<div id="invoice_prtg_graph">
+			<img id="img_graph" src="<#graphpath>" alt="">
+		</div>
+		<div id="invoice_footer_text">
+			<p><#listfooter></p>
+		</div>
+		
+		<div id="footer">
+			<p><#footer></p>
+		</div>
+	
+	</div>
+</body>
+</html>

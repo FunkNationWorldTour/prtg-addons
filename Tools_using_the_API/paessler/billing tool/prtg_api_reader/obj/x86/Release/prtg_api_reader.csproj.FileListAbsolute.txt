@@ -1,0 +1,12 @@
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Dokuments\Projects\prtg_api_reader\bin\prtg_api_reader.exe.config
+C:\Dokuments\Projects\prtg_api_reader\bin\prtg_api_reader.exe
+C:\Dokuments\Projects\prtg_api_reader\bin\prtg_api_reader.pdb
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Release\prtg_api_reader.MainWindow.resources
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Release\prtg_api_reader.OptionDialog.resources
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Release\prtg_api_reader.SelectPeriodDialog.resources
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Release\prtg_api_reader.BillingToolForms.ServerDialog.resources
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Release\prtg_api_reader.exe
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Release\prtg_api_reader.pdb

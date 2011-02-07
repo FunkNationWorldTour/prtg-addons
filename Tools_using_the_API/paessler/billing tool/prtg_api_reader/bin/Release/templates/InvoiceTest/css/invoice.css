@@ -1,0 +1,84 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	border: 0px solid red;
+	width: 100%;
+}
+
+#head_logo {
+	border: 0px solid red;
+	float: right;
+}
+
+#head_client_address {
+	border: 0px solid blue;
+	clear: right;
+	float: left;
+}
+
+#head_client_optional_data {
+	border: 0px solid green;
+	float: right;
+}
+
+#clear {
+	clear: both;
+}
+
+#head_date {
+	bordeR: 0px solid black;
+	float: right;
+}
+
+#invoice_heading {
+	border: 0px solid yellow;
+	clear: both;
+}
+
+#invoice_list {
+	border: 0px solid green;
+	width: 100%;
+	border-top: 1px solid black;
+}
+#invoice_table {
+	width: 100%;
+}
+td {
+	width: 50%;
+}
+
+#invoice_prtg_graph {
+	border: 0px solid red;
+}
+
+#invoice_footer_text {
+	border: 0px solid green;
+}
+#footer {
+	border-top: 1px solid black;
+}
+
+#img_graph {
+
+}
+
+hr {
+	border: 0px;
+	background-color: black;
+	height: 1px;
+}
+
+h1 {
+	font-size: 12pt;
+}
+h2 {
+	font-size: 12pt;
+}

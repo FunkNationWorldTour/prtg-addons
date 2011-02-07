@@ -1,0 +1,14 @@
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\bin\Debug\prtg_api_reader.exe.config
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\bin\Debug\prtg_api_reader.exe
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\bin\Debug\prtg_api_reader.pdb
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Debug\prtg_api_reader.exe
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Debug\prtg_api_reader.pdb
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\bin\Debug\lua51.dll
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\bin\Debug\LuaInterface.dll
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Debug\prtg_api_reader.SelectPeriodDialog.resources
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Debug\prtg_api_reader.MainWindow.resources
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Debug\prtg_api_reader.OptionDialog.resources
+C:\Dokuments\Projects\prtg_api_reader\prtg_api_reader\obj\x86\Debug\prtg_api_reader.ServerDialog.resources

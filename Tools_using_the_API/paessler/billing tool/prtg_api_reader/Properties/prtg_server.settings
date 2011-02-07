@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Paessler.Billingtool.Properties" GeneratedClassName="prtg_server">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerList" Type="prtg_billingtool.ServerList" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SelectedServer" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="SelectedGroup" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="ScriptFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">scripts/</Value>
+    </Setting>
+    <Setting Name="TemplateFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">templates/</Value>
+    </Setting>
+    <Setting Name="DefaultBillingHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dear customer,
+      please find your billing report below.</Value>
+    </Setting>
+    <Setting Name="DefaultBillingFooter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Thank you very much! We hope you are happy with our service.
+                Kind regards</Value>
+    </Setting>
+    <Setting Name="DefaultOutPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CompanyLogo" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FooterText" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

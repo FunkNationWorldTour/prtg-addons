@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1FE480F4-4F75-4010-BF4D-E2760FA9CA94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Paessler.Billingtool</RootNamespace>
+    <AssemblyName>Paessler.Billingtool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Paessler.Billingtool.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F8CC370B6A73B4734B3FFD6FAAB0AE331F0D009B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Paessler.Billingtool_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>prtg.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="lua51">
+      <HintPath>..\..\..\libs\lua51.dll</HintPath>
+    </Reference>
+    <Reference Include="LuaInterface">
+      <HintPath>..\..\..\libs\LuaInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillingToolUI\AfterRunDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\AfterRunDialog.Designer.cs">
+      <DependentUpon>AfterRunDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\ErrorMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\ErrorMessage.Designer.cs">
+      <DependentUpon>ErrorMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\GetVersionAndHashDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\GetVersionAndHashDialog.Designer.cs">
+      <DependentUpon>GetVersionAndHashDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\InputTextDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\InputTextDialog.Designer.cs">
+      <DependentUpon>InputTextDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\ListViewSorter.cs" />
+    <Compile Include="BillingToolUI\OptionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\OptionDialog.Designer.cs">
+      <DependentUpon>OptionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\OptionForms\GeneralOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\OptionForms\GeneralOptions.Designer.cs">
+      <DependentUpon>GeneralOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\OptionForms\ServerConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\OptionForms\ServerConfig.Designer.cs">
+      <DependentUpon>ServerConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\OptionForms\ServerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\OptionForms\ServerDialog.Designer.cs">
+      <DependentUpon>ServerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\OptionForms\TemplateOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\OptionForms\TemplateOptions.Designer.cs">
+      <DependentUpon>TemplateOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\DataElement.cs" />
+    <Compile Include="Data\TreeDeviceElement.cs" />
+    <Compile Include="Data\TreeGroupElement.cs" />
+    <Compile Include="Data\TreeProbeElement.cs" />
+    <Compile Include="Data\TreeSensorElement.cs" />
+    <Compile Include="ErrorHandler.cs" />
+    <Compile Include="BillingToolUI\MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FolderEngine.cs" />
+    <Compile Include="HtmlTemplateEngine.cs" />
+    <Compile Include="API\HttpClient.cs" />
+    <Compile Include="Invoice.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="API\PrtgApiManager.cs" />
+    <Compile Include="Properties\prtg_server.cs" />
+    <Compile Include="Properties\reports.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\ReportDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\ReportDialog.Designer.cs">
+      <DependentUpon>ReportDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\RunDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\RunDialog.Designer.cs">
+      <DependentUpon>RunDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptEngine.cs" />
+    <Compile Include="BillingToolUI\SelectPeriodDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\SelectPeriodDialog.Designer.cs">
+      <DependentUpon>SelectPeriodDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SensorData.cs" />
+    <Compile Include="API\SensorDataXmlParser.cs" />
+    <Compile Include="Properties\prtg_server.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>prtg_server.settings</DependentUpon>
+    </Compile>
+    <Compile Include="BillingToolUI\ServerChangeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingToolUI\ServerChangeDialog.Designer.cs">
+      <DependentUpon>ServerChangeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Settings\SensorReportList.cs" />
+    <Compile Include="Settings\ServerList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\scripts\percentileTest.lua" />
+    <None Include="bin\Debug\scripts\test.lua" />
+    <None Include="bin\Debug\scripts\testNew.lua" />
+    <None Include="bin\Debug\scripts\testold.lua" />
+    <None Include="Properties\prtg_server.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>prtg_server.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BillingToolUI\AfterRunDialog.resx">
+      <DependentUpon>AfterRunDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\ErrorMessage.resx">
+      <DependentUpon>ErrorMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\GetVersionAndHashDialog.resx">
+      <DependentUpon>GetVersionAndHashDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\InputTextDialog.resx">
+      <DependentUpon>InputTextDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\OptionDialog.resx">
+      <DependentUpon>OptionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\OptionForms\GeneralOptions.resx">
+      <DependentUpon>GeneralOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\OptionForms\ServerConfig.resx">
+      <DependentUpon>ServerConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\OptionForms\TemplateOptions.resx">
+      <DependentUpon>TemplateOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\ReportDialog.resx">
+      <DependentUpon>ReportDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\SelectPeriodDialog.resx">
+      <DependentUpon>SelectPeriodDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\OptionForms\ServerDialog.resx">
+      <DependentUpon>ServerDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\RunDialog.resx">
+      <DependentUpon>RunDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingToolUI\ServerChangeDialog.resx">
+      <DependentUpon>ServerChangeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Languages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaesslerLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="prtg.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
