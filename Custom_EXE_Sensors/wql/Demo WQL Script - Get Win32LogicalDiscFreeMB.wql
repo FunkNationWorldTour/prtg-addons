@@ -1,0 +1,1 @@
+SELECT FreeMegabytes FROM Win32_PerfFormattedData_PerfDisk_LogicalDisk WHERE Name='_Total'

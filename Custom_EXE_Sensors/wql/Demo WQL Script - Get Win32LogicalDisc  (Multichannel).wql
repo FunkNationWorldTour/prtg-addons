@@ -1,0 +1,1 @@
+SELECT PercentDiskReadTime,PercentDiskWriteTime,PercentIdleTime,PercentFreeSpace FROM Win32_PerfFormattedData_PerfDisk_LogicalDisk WHERE Name='_Total'
