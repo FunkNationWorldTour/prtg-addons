@@ -1,0 +1,6 @@
+C:\Devel\all4000_to_prtg\all4000_to_prtg\bin\Release\all4000_to_prtg.exe
+C:\Devel\all4000_to_prtg\all4000_to_prtg\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Devel\all4000_to_prtg\all4000_to_prtg\obj\x86\Release\all4000_to_prtg.exe
+C:\Devel\PRTG\all4000_to_prtg\all4000_to_prtg\obj\x86\Release\all4000_to_prtg.exe
+C:\Devel\PRTG\all4000_to_prtg\all4000_to_prtg\bin\Release\all4000_to_prtg.exe
+C:\Devel\PRTG\all4000_to_prtg\all4000_to_prtg\obj\x86\Release\ResolveAssemblyReference.cache
